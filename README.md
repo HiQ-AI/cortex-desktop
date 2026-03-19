@@ -78,7 +78,13 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 
 ## Screenshots
 
-*Coming soon*
+**Chat Mode** — Quick dataset search with database selector
+
+<img src="screenshots/chat-welcome.png" width="700" alt="Chat Mode" />
+
+**Cowork Mode** — Task-driven LCA workflows with project context
+
+<img src="screenshots/cowork-welcome.png" width="700" alt="Cowork Mode" />
 
 ---
 
