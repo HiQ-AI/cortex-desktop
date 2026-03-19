@@ -99,6 +99,38 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 
 ---
 
+## Roadmap
+
+### Available Now
+
+- [x] Multi-database search (12 databases, 1M+ records)
+- [x] AI-powered material analysis and dataset recommendations
+- [x] Data source selection and version management
+- [x] Carbon footprint calculation with formula support
+- [x] Excel/CSV file upload and BOM parsing
+- [x] Interactive clarification (AI asks follow-up questions when needed)
+- [x] Multi-turn conversation with context memory
+- [x] Dataset detail view (GWP100, description, source info)
+- [x] Export to CSV / Excel
+- [x] Chat mode (quick Q&A) + Cowork mode (task workflows)
+- [x] Cross-platform: macOS, Windows, Linux
+- [x] Auto-update (app updates itself in background)
+- [x] Chinese + English bilingual interface
+
+### Coming Soon
+
+- [ ] Project management (organize LCA work by product/client)
+- [ ] BOM batch matching with progress tracking
+- [ ] Data visualization and charts
+- [ ] Comparison reports across databases and regions
+- [ ] PDF report generation (ISO 14067 compliant format)
+- [ ] Team collaboration and shared workspaces
+- [ ] Offline mode with local data cache
+- [ ] Android app
+- [ ] Plugin system for custom data sources
+
+---
+
 ## About HiQ
 
 [HiQ (海科数据)](https://www.hiqlcd.com) is a Shanghai-based company specializing in Life Cycle Assessment data and services. Founded by a team of LCA experts and engineers, HiQ addresses the critical need for high-quality, region-specific environmental data in China — the world's largest manufacturing economy.
