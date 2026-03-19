@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="icon.png" width="80" alt="Cortex Logo" />
+  <img src="icon.png" width="80" alt="HiQ Cortex" />
 </p>
 
-<h1 align="center">Cortex Desktop</h1>
+<h1 align="center">HiQ Cortex</h1>
 
 <p align="center">
   <strong>AI-Powered LCA Data Workbench</strong><br/>
@@ -17,9 +17,9 @@
 
 ---
 
-## What is Cortex?
+## What is HiQ Cortex?
 
-Cortex is a desktop AI assistant for Life Cycle Assessment (LCA) professionals. It connects to **12 major LCA databases** and helps you find the right carbon footprint data, match background datasets for your BOM, and generate reports — all through natural language.
+HiQ Cortex is a desktop AI assistant for Life Cycle Assessment (LCA) professionals. It connects to **12 major LCA databases** and helps you find the right carbon footprint data, match background datasets for your BOM, and generate reports — all through natural language.
 
 Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company serving 100+ enterprise clients across automotive, electronics, packaging, construction, and chemical industries.
 
@@ -39,10 +39,6 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 - Upload your BOM (Bill of Materials) in Excel/CSV
 - Automated matching of materials to LCA emission factors
 - Batch processing with progress tracking
-
-**Two working modes**
-- **Chat** — Quick questions, dataset lookups, LCA knowledge
-- **Cowork** — Task-driven workflows with project context, file management, and step-by-step guidance
 
 ### Data Sources
 
@@ -65,26 +61,20 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 
 | Platform | Download |
 |---|---|
-| **macOS** (Intel + Apple Silicon) | [Cortex.dmg](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
-| **Windows** (x64) | [Cortex-Setup.exe](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
-| **Windows** (ARM64) | [Cortex-Setup-arm64.exe](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
-| **Linux** (x64) | [Cortex.AppImage](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
+| **macOS** (Intel + Apple Silicon) | [HiQ-Cortex.dmg](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
+| **Windows** (x64) | [HiQ-Cortex-Setup.exe](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
+| **Windows** (ARM64) | [HiQ-Cortex-Setup-arm64.exe](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
+| **Linux** (x64) | [HiQ-Cortex.AppImage](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
 
 > **macOS users**: On first launch, right-click the app and select "Open" to bypass Gatekeeper.
 
-> **Note**: Cortex is currently in closed beta and not open for public registration. If you'd like to try it, please [send us an email](mailto:info@hiqlcd.com) or [open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new) with your use case.
+> **Note**: HiQ Cortex is currently in closed beta and not open for public registration. If you'd like to try it, please [send us an email](mailto:info@hiqlcd.com) or [open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new) with your use case.
 
 ---
 
-## Screenshots
+## Screenshot
 
-**Chat Mode** — Quick dataset search with database selector
-
-<img src="screenshots/chat-welcome.png" width="700" alt="Chat Mode" />
-
-**Cowork Mode** — Task-driven LCA workflows with project context
-
-<img src="screenshots/cowork-welcome.png" width="700" alt="Cowork Mode" />
+<img src="screenshots/chat-welcome.png" width="700" alt="HiQ Cortex" />
 
 ---
 
@@ -120,13 +110,13 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 - [x] Multi-turn conversation with context memory
 - [x] Dataset detail view (GWP100, description, source info)
 - [x] Export to CSV / Excel
-- [x] Chat mode (quick Q&A) + Cowork mode (task workflows)
 - [x] Cross-platform: macOS, Windows, Linux
-- [x] Auto-update (app updates itself in background)
+- [x] Auto-update
 - [x] Chinese + English bilingual interface
 
 ### Coming Soon
 
+- [ ] Task-driven workflows with project context
 - [ ] Project management (organize LCA work by product/client)
 - [ ] BOM batch matching with progress tracking
 - [ ] Data visualization and charts
@@ -135,7 +125,6 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 - [ ] Team collaboration and shared workspaces
 - [ ] Offline mode with local data cache
 - [ ] Android app
-- [ ] Plugin system for custom data sources
 
 ---
 
@@ -160,7 +149,7 @@ We'd love to hear from you! Here's how to get involved:
 - **Questions & discussions** — [Join the discussion](https://github.com/HiQ-AI/cortex-desktop/discussions)
 - **Business inquiries** — [info@hiqlcd.com](mailto:info@hiqlcd.com)
 
-Whether it's a bug, a feature idea, or just a suggestion on how we can make Cortex more useful for your LCA workflow — we're listening.
+Whether it's a bug, a feature idea, or just a suggestion on how we can make HiQ Cortex more useful for your LCA workflow — we're listening.
 
 ---
 
