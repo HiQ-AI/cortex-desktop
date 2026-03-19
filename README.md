@@ -1,0 +1,125 @@
+<p align="center">
+  <img src="build/icon.png" width="80" alt="Cortex Logo" />
+</p>
+
+<h1 align="center">Cortex Desktop</h1>
+
+<p align="center">
+  <strong>AI-Powered LCA Data Workbench</strong><br/>
+  Search carbon footprint datasets · Calculate product LCA · Export professional reports
+</p>
+
+<p align="center">
+  <a href="https://github.com/HiQ-AI/cortex-desktop/releases/latest"><img src="https://img.shields.io/github/v/release/HiQ-AI/cortex-desktop?style=flat-square&label=Download" alt="Latest Release" /></a>
+  <a href="https://www.hiqlcd.com"><img src="https://img.shields.io/badge/HiQLCD-Platform-orange?style=flat-square" alt="HiQLCD" /></a>
+  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey?style=flat-square" alt="Platform" />
+</p>
+
+---
+
+## What is Cortex?
+
+Cortex is a desktop AI assistant for Life Cycle Assessment (LCA) professionals. It connects to **12 major LCA databases** and helps you find the right carbon footprint data, calculate product environmental impact, and generate reports — all through natural language.
+
+Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company serving 100+ enterprise clients across automotive, electronics, packaging, construction, and chemical industries.
+
+### Key Features
+
+**Search across 12 databases at once**
+- HiQLCD, Ecoinvent, EF, CarbonMinds, TianGong, Agri-footprint, WorldSteel, USDA, and more
+- 1,000,000+ LCA data records with GWP100 emission factors
+- Chinese and English bilingual search
+
+**AI-powered LCA consultant**
+- Understands your product and breaks it down into materials
+- Recommends appropriate proxy datasets when exact matches aren't available
+- Explains data quality, regional representativeness, and system model differences
+
+**Carbon footprint calculation**
+- Upload your BOM (Bill of Materials) in Excel/CSV
+- Automated matching of materials to emission factors
+- Built-in calculation engine for custom formulas
+
+**Two working modes**
+- **Chat** — Quick questions, dataset lookups, LCA knowledge
+- **Cowork** — Task-driven workflows with project context, file management, and step-by-step guidance
+
+### Data Sources
+
+| Database | Coverage |
+|---|---|
+| HiQLCD | China-focused, 25+ industries |
+| Ecoinvent | Global, most comprehensive |
+| EF | EU Product Environmental Footprint |
+| TianGong | Chinese national LCA database |
+| CarbonMinds | Chemicals & plastics |
+| Agri-footprint | Agriculture & food |
+| WorldSteel | Steel industry |
+| + 5 more | USDA, EXIOBASE, OZLCI, NEEDS, ELCD |
+
+> Total: **1,000,000+** LCA data records across all databases
+
+---
+
+## Download
+
+| Platform | Download |
+|---|---|
+| **macOS** (Intel + Apple Silicon) | [Cortex.dmg](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
+| **Windows** (x64) | [Cortex-Setup.exe](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
+| **Windows** (ARM64) | [Cortex-Setup-arm64.exe](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
+| **Linux** (x64) | [Cortex.AppImage](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
+
+> **macOS users**: On first launch, right-click the app and select "Open" to bypass Gatekeeper.
+
+---
+
+## Screenshots
+
+*Coming soon*
+
+---
+
+## Use Cases
+
+### For LCA Analysts
+- "查 304 不锈钢的碳排放因子" → Instantly search across all databases
+- "帮我算这个产品的碳足迹，BOM 在附件里" → Upload Excel, get results
+- "Ecoinvent 和 HiQLCD 的数据有什么区别？" → Expert comparison
+
+### For ESG Teams
+- Batch-match BOM materials to emission factors
+- Generate carbon footprint reports for product declarations
+- Track and compare data across different LCA databases
+
+### For Supply Chain Managers
+- Evaluate supplier materials' environmental impact
+- Find region-specific emission factors (China, Global, Europe)
+- Export results as CSV/Excel for further analysis
+
+---
+
+## About HiQ
+
+[HiQ (海科数据)](https://www.hiqlcd.com) is a Shanghai-based company specializing in Life Cycle Assessment data and services. Founded by a team of LCA experts and engineers, HiQ addresses the critical need for high-quality, region-specific environmental data in China — the world's largest manufacturing economy.
+
+- **100+** enterprise clients
+- **18+** strategic partners (Tsinghua University, Tongji University, Fudan University, and more)
+- **ISO 14040/14044/14067** compliant data
+- **30+** team members
+
+**Contact**: info@hiqlcd.com | +86-21-61810170
+
+---
+
+## License
+
+Copyright © 2026 HiQ (Shanghai) Data Technology Co., Ltd. All rights reserved.
+
+This software is proprietary. Unauthorized copying, modification, distribution, or use is strictly prohibited.
+
+---
+
+<p align="center">
+  <sub>Built with ❤️ by <a href="https://www.hiqlcd.com">HiQ AI</a> in Shanghai</sub>
+</p>
