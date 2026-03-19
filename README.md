@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="build/icon.png" width="80" alt="Cortex Logo" />
+  <img src="icon.png" width="80" alt="Cortex Logo" />
 </p>
 
 <h1 align="center">Cortex Desktop</h1>
