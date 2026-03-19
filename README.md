@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI-Powered LCA Data Workbench</strong><br/>
-  Search carbon footprint datasets · Calculate product LCA · Export professional reports
+  Search carbon footprint datasets · Match BOM background data · Export professional reports
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 ## What is Cortex?
 
-Cortex is a desktop AI assistant for Life Cycle Assessment (LCA) professionals. It connects to **12 major LCA databases** and helps you find the right carbon footprint data, calculate product environmental impact, and generate reports — all through natural language.
+Cortex is a desktop AI assistant for Life Cycle Assessment (LCA) professionals. It connects to **12 major LCA databases** and helps you find the right carbon footprint data, match background datasets for your BOM, and generate reports — all through natural language.
 
 Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company serving 100+ enterprise clients across automotive, electronics, packaging, construction, and chemical industries.
 
@@ -35,10 +35,10 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 - Recommends appropriate proxy datasets when exact matches aren't available
 - Explains data quality, regional representativeness, and system model differences
 
-**Carbon footprint calculation**
+**BOM background data matching**
 - Upload your BOM (Bill of Materials) in Excel/CSV
-- Automated matching of materials to emission factors
-- Built-in calculation engine for custom formulas
+- Automated matching of materials to LCA emission factors
+- Batch processing with progress tracking
 
 **Two working modes**
 - **Chat** — Quick questions, dataset lookups, LCA knowledge
@@ -72,6 +72,8 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 
 > **macOS users**: On first launch, right-click the app and select "Open" to bypass Gatekeeper.
 
+> **Note**: Cortex is currently in closed beta and not open for public registration. If you'd like to try it, please [send us an email](mailto:info@hiqlcd.com) or [open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new) with your use case.
+
 ---
 
 ## Screenshots
@@ -84,12 +86,12 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 
 ### For LCA Analysts
 - "查 304 不锈钢的碳排放因子" → Instantly search across all databases
-- "帮我算这个产品的碳足迹，BOM 在附件里" → Upload Excel, get results
+- "帮我把这个 BOM 配上背景数据" → Upload Excel, auto-match datasets
 - "Ecoinvent 和 HiQLCD 的数据有什么区别？" → Expert comparison
 
 ### For ESG Teams
 - Batch-match BOM materials to emission factors
-- Generate carbon footprint reports for product declarations
+- Find Scope 3 upstream emission data for supply chain reporting
 - Track and compare data across different LCA databases
 
 ### For Supply Chain Managers
@@ -106,7 +108,7 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 - [x] Multi-database search (12 databases, 1M+ records)
 - [x] AI-powered material analysis and dataset recommendations
 - [x] Data source selection and version management
-- [x] Carbon footprint calculation with formula support
+- [x] BOM material matching to emission factors
 - [x] Excel/CSV file upload and BOM parsing
 - [x] Interactive clarification (AI asks follow-up questions when needed)
 - [x] Multi-turn conversation with context memory
@@ -141,6 +143,18 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 - **30+** team members
 
 **Contact**: info@hiqlcd.com | +86-21-61810170
+
+---
+
+## Feedback & Community
+
+We'd love to hear from you! Here's how to get involved:
+
+- **Bug reports & feature requests** — [Open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new)
+- **Questions & discussions** — [Join the discussion](https://github.com/HiQ-AI/cortex-desktop/discussions)
+- **Business inquiries** — [info@hiqlcd.com](mailto:info@hiqlcd.com)
+
+Whether it's a bug, a feature idea, or just a suggestion on how we can make Cortex more useful for your LCA workflow — we're listening.
 
 ---
 
