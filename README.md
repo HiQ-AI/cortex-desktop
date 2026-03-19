@@ -91,9 +91,9 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 ## Use Cases
 
 ### For LCA Analysts
-- "查 304 不锈钢的碳排放因子" → Instantly search across all databases
-- "帮我把这个 BOM 配上背景数据" → Upload Excel, auto-match datasets
-- "Ecoinvent 和 HiQLCD 的数据有什么区别？" → Expert comparison
+- "Find emission factor for 304 stainless steel" → Instantly search across all databases
+- "Match my BOM with background datasets" → Upload Excel, auto-match materials
+- "What's the difference between Ecoinvent and HiQLCD?" → Expert comparison
 
 ### For ESG Teams
 - Batch-match BOM materials to emission factors
