@@ -107,6 +107,8 @@ Cortex Cowork 将 AI 推理和数据处理严格分离：
 
 内置自动更新——有新版本时会自动通知。
 
+> **macOS 首次打开**：由于 Cortex 目前使用自签名证书（尚未通过 Apple 公证），macOS 会弹出安全提示。请右键点击应用 → 选择「打开」→ 在弹窗中点击「打开」。只需操作一次，之后正常启动即可。
+
 > **注意**：HiQ Cortex 目前处于内测阶段，暂未开放公开注册。如需试用，请[发送邮件](mailto:info@hiqlcd.com)或[提交 Issue](https://github.com/HiQ-AI/cortex-desktop/issues/new)。
 
 ---
