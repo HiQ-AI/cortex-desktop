@@ -107,6 +107,8 @@ Every tool call, search query, and intermediate step is visible in real-time. Yo
 
 Auto-update is built in — you'll be notified when new versions are available.
 
+> **macOS first launch**: Since Cortex uses a self-signed certificate (not yet Apple notarized), macOS will show a security warning on first open. Right-click the app → select "Open" → click "Open" in the dialog. You only need to do this once — subsequent launches work normally.
+
 > **Note**: HiQ Cortex is currently in closed beta. To request access, please [email us](mailto:info@hiqlcd.com) or [open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new).
 
 ---
