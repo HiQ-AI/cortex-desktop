@@ -27,6 +27,10 @@ HiQ Cortex 是一款面向生命周期评估（LCA）专业人士的桌面 AI �
 
 由 [海科数据 (HiQ)](https://www.hiqlcd.com) 开发，运营中国领先的本土化 LCA 数据库平台 **HiQLCD**，覆盖 25+ 行业，数据符合 ISO 14040/14044/14067 标准。海科服务于汽车、电子、包装、建筑、化工等行业的 **100+ 家企业客户**，拥有清华大学、同济大学、复旦大学等 **18+ 家战略合作伙伴**。
 
+<p align="center">
+  <img src="screenshots/chat-welcome.png" width="720" alt="Cortex 截图" />
+</p>
+
 ---
 
 你有一份 31 种材料的 BOM 表。每个材料都需要碳足迹排放因子。你打开 SimaPro，搜"碳钢"——200 条结果。选哪个？换 openLCA 试试，不同的数据库，不同的命名。翻翻同事去年整理的表格。三个小时过去了，你匹配了 8 个材料。
@@ -159,7 +163,11 @@ Cortex 严格分离云端智能和本地数据。你的专有文件、BOM 数据
 
 内置自动更新——有新版本时会自动通知。
 
+> **提示**：Cortex 目前尚未完成代码签名（Apple 公证和 Windows 签名正在进行中）。系统可能会提示"未知开发者"——这是测试版软件的正常现象。
+
 > **macOS 首次打开**：右键点击应用 → 选择「打开」→ 在弹窗中点击「打开」。只需操作一次。
+
+> **Windows 首次打开**：Windows Defender SmartScreen 可能显示"已保护你的电脑"。点击「更多信息」→「仍要运行」。此外需要安装 [Git for Windows](https://git-scm.com)——Cortex 会在缺少时提示你。安装后无需额外配置。
 
 > **注意**：HiQ Cortex 目前处于内测阶段。如需试用，请[发送邮件](mailto:info@hiqlcd.com)或[提交 Issue](https://github.com/HiQ-AI/cortex-desktop/issues/new)。
 
@@ -237,7 +245,7 @@ Cortex 严格分离云端智能和本地数据。你的专有文件、BOM 数据
 
 ## 许可证
 
-Copyright © 2026 海科（上海）数据科技有限公司。保留所有权利。
+Copyright © 2026 上海海科智慧数据科技有限公司。保留所有权利。
 
 本软件为专有软件，未经授权禁止复制、修改、分发或使用。
 
