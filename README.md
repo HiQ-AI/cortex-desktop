@@ -35,7 +35,7 @@ Built by [HiQ](https://www.hiqlcd.com), a Shanghai-based LCA data company servin
 Quick Q&A with a professional AI carbon consultant. Search across all databases, compare data sources, get explanations on methodology — like having a senior LCA analyst on standby.
 
 ### Cowork — AI Works With Your Local Files
-Give Cortex access to your local files and let it handle complex multi-step tasks: parse BOMs, match emission factors, run calculations, generate charts, export reports.
+Give Cortex access to your local files and let it handle complex multi-step tasks: parse BOMs, match emission factors, run calculations, generate charts, export reports. Cortex autonomously plans its work, delegates subtasks, and parallelizes searches — like a senior consultant with a full toolkit who shows you every step as it happens.
 
 **Think of it as the difference between asking a colleague a question (Chat) versus sitting down and working together on a deliverable (Cowork).**
 
@@ -86,13 +86,24 @@ Cortex Cowork is designed with a clear separation between AI reasoning and data 
 - Upload or select local BOM files (Excel, CSV, PDF, Word)
 - AI reads file contents locally, plans analysis steps, and executes
 - Built-in Python environment for data processing, visualization, and export
-- Each task gets its own isolated workspace directory
+- AI autonomously creates subtasks and parallelizes work for complex jobs
+
+### Project Management
+- Create projects with dedicated folders, instructions, and persistent memory
+- AI remembers what you discussed in each project across sessions
+- Set project-specific instructions (e.g., "this project uses EF 3.1 database")
+
+### Smart Search with Professional Skills
+- Built-in LCA search skills: bilingual keyword strategy, material decomposition, synonym coverage
+- AI automatically asks for clarification when queries are ambiguous ("What kind of steel?")
+- Two-stage search: find candidates first, verify details before showing results
+- Professional commentary on data quality, regional fit, and process compatibility
 
 ### Human-in-the-Loop
-When the AI needs your judgment — ambiguous search terms, multiple matching datasets, missing parameters — it pauses and asks you directly instead of guessing.
+When the AI needs your judgment — ambiguous search terms, multiple matching datasets, missing parameters — it pauses and asks you with clickable options instead of guessing.
 
 ### Full Transparency
-Every tool call, search query, and intermediate step is visible in real-time. You always know what the AI is doing and why.
+Every tool call, search query, and intermediate step appears inline in the conversation as it happens. You see what the AI is searching for, what parameters it's using, and how long each step takes — in real-time, in context.
 
 ---
 
@@ -137,11 +148,18 @@ Auto-update is built in — you'll be notified when new versions are available.
 ### Available Now
 - [x] Multi-database search (12 databases, 1M+ records)
 - [x] AI material analysis and dataset recommendations
-- [x] Data source selection and version management
+- [x] Data source selection and filtering
 - [x] BOM upload and automated material matching
+- [x] BOM batch matching with parallel search
 - [x] Local file analysis with Python environment
+- [x] AI autonomous task planning and subtask delegation
 - [x] Human-in-the-loop interactive clarification
 - [x] Multi-turn conversation with context memory
+- [x] Project management with folders, instructions, and memory
+- [x] Session management (star, archive, rename, search)
+- [x] Built-in LCA search skills with bilingual keyword strategy
+- [x] Real-time tool execution visibility (inline in conversation)
+- [x] Code syntax highlighting (Shiki)
 - [x] Dataset detail view with full metadata
 - [x] Export to CSV / Excel
 - [x] Cross-platform: macOS, Windows, Linux
@@ -150,12 +168,11 @@ Auto-update is built in — you'll be notified when new versions are available.
 - [x] Local-first privacy architecture
 
 ### Coming Soon
-- [ ] Project management (organize work by product/client)
-- [ ] BOM batch matching with concurrent search
 - [ ] Data visualization and comparison charts
 - [ ] PDF report generation (ISO 14067 format)
 - [ ] Team collaboration and shared workspaces
 - [ ] Offline mode with local data cache
+- [ ] Image attachment support for visual analysis
 
 ---
 
