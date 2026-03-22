@@ -21,6 +21,14 @@
 
 ---
 
+## What is HiQ Cortex?
+
+HiQ Cortex is a desktop AI assistant for Life Cycle Assessment (LCA) professionals. It connects to **12 major LCA databases** with **1,000,000+ emission factor records** and helps you find the right carbon footprint data, match background datasets for your BOM, and analyze data — all through natural language.
+
+Built by [HiQ (海科数据)](https://www.hiqlcd.com), a Shanghai-based LCA data company operating the **HiQLCD** platform — China's leading localized LCA database covering 25+ industries with ISO 14040/14044/14067 compliant data. HiQ serves **100+ enterprise clients** across automotive, electronics, packaging, construction, and chemical industries, with **18+ strategic partners** including Tsinghua, Tongji, and Fudan universities.
+
+---
+
 You have a BOM with 31 materials. Each one needs a carbon footprint emission factor. You open SimaPro, search "carbon steel" — 200 results. Which one? You try openLCA, different database, different names. You check a spreadsheet your colleague made last year. Three hours later, you've matched 8 materials.
 
 **Cortex does it in 3 minutes.** Tell it what you need in plain language. It searches 12 databases, asks you when it's unsure, verifies every result, and hands you a color-coded Excel with professional commentary.
@@ -40,11 +48,22 @@ That's it. Cortex handles the rest — loading search skills, asking clarifying 
 
 ## Two Modes, One App
 
-### Chat — Ask Anything About LCA
-Quick Q&A with a professional AI carbon consultant. Search across all databases, compare data sources, get explanations on methodology — like having a senior LCA analyst on standby.
+### Chat — Cloud-Powered LCA Q&A
+Quick Q&A with a professional AI carbon consultant backed by cloud intelligence:
+- **Cloud conversation memory** — pick up where you left off, AI remembers your context
+- **Expert knowledge base** — LCA methodology, standards, industry best practices built in
+- Search across all databases, compare data sources, get methodology explanations
 
-### Cowork — AI Works With Your Local Files
-Give Cortex access to your local files and let it handle complex multi-step tasks: parse BOMs, match emission factors, run calculations, generate charts, export reports. Cortex autonomously plans its work, delegates subtasks, and parallelizes searches — like a senior consultant with a full toolkit who shows you every step as it happens.
+Like having a senior LCA analyst who never forgets and knows every standard.
+
+### Cowork — Local-First AI Workbench
+AI works directly with your local files. Everything except AI reasoning and database search runs on your machine:
+- **Files stay local** — AI reads, writes, and edits files on your computer, never uploaded
+- **Local execution** — Python, shell commands, data processing all run locally
+- **Local storage** — conversation history, projects, workspace files stored on your device
+- Autonomously plans work, delegates subtasks, parallelizes searches
+
+Like a senior consultant sitting next to you — with their own toolkit, working on your files, on your machine.
 
 **Chat is asking a colleague a question. Cowork is sitting down and working together on a deliverable.**
 
@@ -104,9 +123,27 @@ Every tool call, search query, and intermediate step appears inline in the conve
 
 ---
 
-## Privacy: AI Comes to Your Data
+## Privacy & Security: AI Comes to Your Data
 
-Your files never leave your device. AI reasons in the cloud, but reads and writes files locally on your machine. Cowork conversation history is stored locally, not on any server.
+Cortex is designed with a strict separation between cloud intelligence and local data. Your proprietary files, BOM data, and project information **never leave your device**.
+
+|  | Cloud | Your Computer |
+|---|---|---|
+| AI Reasoning & Planning | ✅ | |
+| LCA Database Search | ✅ | |
+| Chat Conversation Memory | ✅ | |
+| Expert Knowledge Base | ✅ | |
+| File Read / Write / Edit | | ✅ |
+| Python / Shell Execution | | ✅ |
+| BOM & Project Files | | ✅ |
+| Cowork Conversation History | | ✅ |
+| Workspace & Session Data | | ✅ |
+
+**Why this matters for enterprise users:**
+- Your BOM data, supplier information, and product specs are never uploaded to any server
+- Cowork conversation history is stored in local files on your machine, not in a cloud database
+- File operations (reading Excel, writing reports, running Python) execute entirely on your computer
+- The AI only sees the content you explicitly share in conversation — it cannot scan your filesystem
 
 > **AI comes to your data. Your data doesn't go to AI.**
 
