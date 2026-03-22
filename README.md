@@ -27,6 +27,10 @@ HiQ Cortex is a desktop AI assistant for Life Cycle Assessment (LCA) professiona
 
 Built by [HiQ (海科数据)](https://www.hiqlcd.com), a Shanghai-based LCA data company operating the **HiQLCD** platform — China's leading localized LCA database covering 25+ industries with ISO 14040/14044/14067 compliant data. HiQ serves **100+ enterprise clients** across automotive, electronics, packaging, construction, and chemical industries, with **18+ strategic partners** including Tsinghua, Tongji, and Fudan universities.
 
+<p align="center">
+  <img src="screenshots/chat-welcome.png" width="720" alt="Cortex Screenshot" />
+</p>
+
 ---
 
 You have a BOM with 31 materials. Each one needs a carbon footprint emission factor. You open SimaPro, search "carbon steel" — 200 results. Which one? You try openLCA, different database, different names. You check a spreadsheet your colleague made last year. Three hours later, you've matched 8 materials.
@@ -159,7 +163,11 @@ Cortex is designed with a strict separation between cloud intelligence and local
 
 Auto-update is built in — you'll be notified when new versions are available.
 
+> **Important**: Cortex is not code-signed yet (Apple notarization and Windows signing are in progress). Your OS may warn you about an unrecognized developer — this is expected for beta software.
+
 > **macOS first launch**: Right-click the app → "Open" → click "Open" in the dialog. Only needed once.
+
+> **Windows first launch**: Windows Defender SmartScreen may show "Windows protected your PC". Click "More info" → "Run anyway". You may also need to install [Git for Windows](https://git-scm.com) — Cortex will prompt you if it's missing. No extra configuration needed after installing.
 
 > **Note**: HiQ Cortex is in closed beta. To request access, [email us](mailto:info@hiqlcd.com) or [open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new).
 
@@ -237,7 +245,7 @@ Auto-update is built in — you'll be notified when new versions are available.
 
 ## License
 
-Copyright © 2026 HiQ (Shanghai) Data Technology Co., Ltd. All rights reserved.
+Copyright © 2026 Shanghai HiQ Smart Data Technology Co., Ltd. (上海海科智慧数据科技有限公司). All rights reserved.
 
 This software is proprietary. Unauthorized copying, modification, distribution, or use is strictly prohibited.
 
