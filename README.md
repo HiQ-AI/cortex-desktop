@@ -127,17 +127,17 @@ Every tool call, search query, and intermediate step appears inline in the conve
 
 Cortex is designed with a strict separation between cloud intelligence and local data. Your proprietary files, BOM data, and project information **never leave your device**.
 
-|  | Cloud | Your Computer |
-|---|---|---|
-| AI Reasoning & Planning | ✅ | |
-| LCA Database Search | ✅ | |
-| Chat Conversation Memory | ✅ | |
-| Expert Knowledge Base | ✅ | |
-| File Read / Write / Edit | | ✅ |
-| Python / Shell Execution | | ✅ |
-| BOM & Project Files | | ✅ |
-| Cowork Conversation History | | ✅ |
-| Workspace & Session Data | | ✅ |
+|  | Cloud | Your Computer | Mode |
+|---|---|---|---|
+| AI Reasoning & Planning | ✅ | | Both |
+| LCA Database Search | ✅ | | Both |
+| Conversation Memory | ✅ | | Chat |
+| Expert Knowledge Base | ✅ | | Chat |
+| Conversation History | | ✅ | Cowork |
+| File Read / Write / Edit | | ✅ | Cowork |
+| Python / Shell Execution | | ✅ | Cowork |
+| BOM & Project Files | | ✅ | Cowork |
+| Workspace & Session Data | | ✅ | Cowork |
 
 **Why this matters for enterprise users:**
 - Your BOM data, supplier information, and product specs are never uploaded to any server
