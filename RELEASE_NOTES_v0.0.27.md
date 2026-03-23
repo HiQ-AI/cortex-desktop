@@ -1,30 +1,42 @@
-## v0.0.27 — 蜗牛不再半途而废 🏃
+## v0.0.27 — 含泪给蜗牛加预算 💸
 
-你有没有经历过这种事——
+我们一直在努力省钱。
 
-你给蜗牛安排了一个大活。比如"帮我查 15 种材料的碳足迹，对比三个数据库，最后写个总结"。蜗牛兢兢业业地开始干活，搜了 8 种材料，分析写到一半，突然——
+毕竟蜗牛每思考一次都要花钱——搜一次数据库几分钱，分析一段文本几分钱，写个报告又几分钱。积少成多，月底账单看了心疼。
+
+所以我们给蜗牛定了个规矩：每次对话，花到一定额度就停。省着点花，细水长流。
+
+然后老板来了。
+
+老板说："帮我查 15 种材料的碳足迹，对比三个数据库，最后写个总结报告。"
+
+蜗牛开始干活。查了碳钢，查了不锈钢，查了铝合金，查了铜……查到第 8 种，分析写到一半——
 
 没了。
 
-不是报错。不是卡住。就是……没了。像一个认真做阅读理解的学生，写到第三题突然交了卷。你盯着屏幕，等了十秒，二十秒，才意识到它真的就这么走了。
+老板等了十秒。二十秒。然后问："它怎么不动了？"
 
-**是蜗牛偷懒了吗？不是。是钱包见底了。**
+**预算花完了。蜗牛被强制下班了。**
 
-我们之前给蜗牛设了一个"零花钱上限"——每次对话最多花几毛钱。平时够用，但遇到复杂任务，搜索多跑几轮、分析多写几段，零花钱就花光了。蜗牛不是不想干，是被强制下班了。
+就好比你请了个实习生，跟他说"每天只能用 10 张 A4 纸"。平时够用，但老板让他打印一份 30 页的报告时，打到第 10 页他就把打印机关了，默默回了工位。
 
-现在零花钱翻了 10 倍。蜗牛终于可以把大活干完了。
+老板不开心。
 
-**你说查 15 种，它就查 15 种。不会查到第 8 种就消失。**
+我们含泪把蜗牛的预算提高了 10 倍。
 
-### 🏃 大任务不再断
+**现在蜗牛终于能把老板的大活干完了。虽然我们的钱包在哭。**
 
-以前复杂请求经常"虎头蛇尾"——开头搜得挺好，分析写到一半就没了。现在蜗牛的续航顶得住长途跋涉：批量查询、多数据库对比、长篇分析报告，一口气跑完。
+### 💸 大任务不再断了
 
-### 🐌 蜗牛依然是蜗牛
+以前复杂请求经常"虎头蛇尾"——搜索做得挺好，分析写到一半就消失了。不是蜗牛不想干，是真没钱了。
 
-虽然零花钱多了，但蜗牛不会乱花。简单问题还是简单处理，不会因为兜里有钱就绕远路。只是遇到大活的时候，终于不用半途而废了。
+现在预算充足，批量查询、多数据库对比、长篇分析报告，一口气跑完。老板满意了，蜗牛累坏了，我们破产了。
 
-蜗牛不再半途而废了。虽然它依然很慢。🐌
+### 🐌 蜗牛不会乱花
+
+虽然预算多了，但蜗牛不会乱花钱。简单问题还是简单处理——"GWP 是什么"不会触发十轮搜索。只是遇到大活的时候，终于不用半途而废了。
+
+为了老板的体验，含泪加预算。蜗牛终于不用被强制下班了。🐌
 
 ### 平台
 - **macOS** — arm64（Apple Silicon）
@@ -33,31 +45,43 @@
 
 ---
 
-You know that feeling when you're telling someone a really important story, and they just... walk away mid-sentence?
+We've been trying to save money.
 
-That was the snail. You'd give it a big task — "search 15 materials across three databases and write a comparison." It'd start strong. Search 8 materials, begin the analysis, and then—
+Every time the snail thinks, it costs money — a few cents to search a database, a few cents to analyze text, a few cents to write a report. It adds up. The monthly bill hurts.
+
+So we set a rule: each conversation has a spending cap. Budget wisely. Make it last.
+
+Then the boss showed up.
+
+"Search 15 materials across three databases. Compare them. Write a summary report."
+
+The snail got to work. Carbon steel, stainless steel, aluminum, copper... at material #8, halfway through the analysis—
 
 Gone.
 
-No error. No crash. Just... gone. Like a student who diligently works through a test, then hands it in at question three. You stare at the screen for twenty seconds before realizing it actually left.
+The boss waited ten seconds. Twenty. Then: "Why did it stop?"
 
-**Was the snail slacking? No. It ran out of pocket money.**
+**Budget ran out. The snail was forced to clock out.**
 
-We'd set a spending cap per conversation — a few cents. Fine for simple questions, but complex tasks burn through it fast. The snail wasn't quitting — it was being forced to clock out.
+It's like hiring an intern and saying "you can only use 10 sheets of paper per day." Fine for most tasks, but when the boss asks for a 30-page report, the intern prints page 10, turns off the printer, and quietly walks back to their desk.
 
-Now the budget is 10x bigger. The snail can finally finish the big jobs.
+The boss was not happy.
 
-**You say search 15 materials, it searches 15. Not 8 then vanishes.**
+We tearfully increased the snail's budget by 10x.
 
-### 🏃 Big Tasks Run to Completion
+**The snail can finally finish the boss's big tasks. Our wallet is crying though.**
 
-Complex requests used to start strong and fade out — great searches, half-written analysis, then silence. Now the snail has enough stamina for the full marathon: batch queries, multi-database comparisons, detailed reports. All the way through.
+### 💸 Big Tasks Run to Completion
 
-### 🐌 Still a Snail Though
+Complex requests used to start strong and fade out — solid searches, half-written analysis, then silence. Not because the snail was lazy — it was genuinely broke.
 
-More budget doesn't mean wasteful. Simple questions still get simple answers. The snail won't take detours just because it can. It just won't quit halfway anymore.
+Now with proper funding: batch queries, multi-database comparisons, full reports. All the way through. Boss happy. Snail exhausted. Us bankrupt.
 
-The snail no longer quits mid-sentence. Still slow though. 🐌
+### 🐌 Won't Overspend
+
+More budget doesn't mean wasteful. "What is GWP?" won't trigger ten search rounds. Simple questions still get simple answers. The extra budget only kicks in when the task actually needs it.
+
+For the boss's experience, we tearfully raised the budget. The snail finally doesn't get forced off the clock. 🐌
 
 ### Platforms
 - **macOS** — arm64 (Apple Silicon)
