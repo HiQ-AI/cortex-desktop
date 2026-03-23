@@ -63,8 +63,10 @@ Like having a senior LCA analyst who never forgets and knows every standard.
 ### Cowork — Local-First AI Workbench
 AI works directly with your local files. Everything except AI reasoning and database search runs on your machine:
 - **Files stay local** — AI reads, writes, and edits files on your computer, never uploaded
+- **File upload** — Attach Excel, CSV, PDF, Word, images — AI reads them with full context
 - **Local execution** — Python, shell commands, data processing all run locally
 - **Local storage** — conversation history, projects, workspace files stored on your device
+- **Skills system** — extensible via [marketplace](https://github.com/HiQ-AI/cortex-skills) or custom .skill imports
 - Autonomously plans work, delegates subtasks, parallelizes searches
 
 Like a senior consultant sitting next to you — with their own toolkit, working on your files, on your machine.
@@ -199,12 +201,16 @@ Auto-update is built in — you'll be notified when new versions are available.
 - [x] AI material analysis and dataset recommendations
 - [x] Data source selection and filtering
 - [x] BOM upload and batch material matching with parallel search
+- [x] File upload — attach Excel, CSV, PDF, Word, images to conversations
 - [x] Local file analysis with Python environment
 - [x] AI autonomous task planning and subtask delegation
 - [x] Human-in-the-loop interactive clarification
 - [x] Multi-turn conversation with context memory
 - [x] Project management with folders, instructions, and memory
 - [x] Session management (star, archive, rename, search)
+- [x] Skills Center — enable/disable skills, card-based UI
+- [x] Skills Marketplace — cloud-based skill store, one-click install from [cortex-skills](https://github.com/HiQ-AI/cortex-skills)
+- [x] Custom skill import — upload .skill/.zip files with validation
 - [x] Built-in LCA search skills with bilingual keyword strategy
 - [x] Real-time tool execution visibility (inline in conversation)
 - [x] Code syntax highlighting
@@ -220,7 +226,6 @@ Auto-update is built in — you'll be notified when new versions are available.
 - [ ] LCA tool import file generation (SimaPro CSV, openLCA JSON-LD)
 - [ ] Team collaboration and shared workspaces
 - [ ] Offline mode with local data cache
-- [ ] Image attachment support for visual analysis
 
 ---
 
