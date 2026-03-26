@@ -202,21 +202,6 @@ Auto-update is built in — you'll be notified when new versions are available.
 - **One-click issue submission** — tell the AI about a bug, it drafts and submits a GitHub Issue for you
 - **Bilingual search results** — dataset names returned in both Chinese and English
 
-### What Cortex Can Do Today
-
-| Category | Scenarios | Status |
-|---|---|---|
-| 🔍 **Data Search** | Single material lookup, multi-database comparison, regional filtering, proxy matching for rare materials | ✅ |
-| 📊 **BOM Matching** | Batch import, database-specific matching, result export to Excel, full pipeline (search → match → assess → export) | ✅ |
-| 🔬 **Dataset QA** | ILCD/JSON-LD format validation, cross-reference checks, format conversion | ⚠️ Skills in beta |
-| 📋 **Compliance** | Scope 3 inventory, CBAM embedded emissions, data quality assessment (DQI) | ⚠️ Skills in beta |
-| 🧮 **Carbon Footprint** | System boundary definition, allocation method comparison, transport footprint, reduction quantification | ✅ |
-| 📈 **Analysis** | Material substitution comparison, dataset version diff, hotspot analysis | ✅ |
-| 🌱 **Eco-design** | Low-carbon material alternatives, packaging comparison, recycled vs virgin material | ✅ |
-| 🔗 **Tool Integration** | Export to Excel/PDF/Word/PPT, GitHub issue submission | ✅ |
-
-> ✅ = available now &nbsp; ⚠️ = skill in beta &nbsp; Full scenario list with 40+ use cases: [Ideas (#12)](https://github.com/HiQ-AI/cortex-desktop/issues/12)
-
 ### 🔜 Coming Soon
 - LCA tool import file generation (SimaPro CSV, openLCA JSON-LD)
 - openLCA bridge — search → model → LCIA calculation
