@@ -196,36 +196,35 @@ Cortex 严格分离云端智能和本地数据。你的专有文件、BOM 数据
 
 ## 产品路线图
 
-### 已上线
-- [x] 多数据库搜索（12 个数据库，100 万+ 条记录）
-- [x] AI 材料分析与数据集推荐
-- [x] 数据源选择与过滤
-- [x] BOM 上传与批量并行匹配
-- [x] 文件上传 — 对话中直接附加 Excel、CSV、PDF、Word、图片
-- [x] 本地文件分析与 Python 执行环境
-- [x] AI 自主任务规划与子任务分配
-- [x] 人机协作式交互确认
-- [x] 多轮对话与上下文记忆
-- [x] 项目管理（文件夹、指令、持久记忆）
-- [x] 会话管理（星标、归档、重命名、搜索）
-- [x] 技能中心 — 卡片式管理，启用/禁用技能
-- [x] 技能市场 — 云端技能商店，一键安装（[cortex-skills](https://github.com/HiQ-AI/cortex-skills)）
-- [x] 自定义技能导入 — 上传 .skill/.zip 文件，自动校验
-- [x] 内置 LCA 搜索技能（双语关键词策略）
-- [x] 实时工具执行可视化（对话内联展示）
-- [x] 代码语法高亮
-- [x] 导出 CSV / Excel
-- [x] 跨平台：macOS、Windows、Linux
-- [x] 自动更新
-- [x] 中英文双语界面
-- [x] 本地优先的隐私架构
+### 🆕 最近更新
+- **文档生成** — 通过内置技能生成和编辑 Excel、PDF、Word、PowerPoint
+- **数据可视化** — 图表和对比分析（Python + xlsx 技能）
+- **一键提 Issue** — 跟 AI 说遇到了 bug，它帮你写好直接提交到 GitHub
+- **双语搜索结果** — 数据集名称同时返回中英文
 
-### 即将推出
-- [ ] 数据可视化与对比图表
-- [ ] PDF 报告生成（ISO 14067 格式）
-- [ ] LCA 工具导入文件生成（SimaPro CSV、openLCA JSON-LD）
-- [ ] 团队协作与共享工作空间
-- [ ] 离线模式与本地数据缓存
+### 能力矩阵
+
+| 分类 | 场景 | 状态 |
+|---|---|---|
+| 🔍 **数据搜索** | 单材料查找、多数据库对比、地区筛选、冷门材料代理匹配 | ✅ |
+| 📊 **BOM 匹配** | 批量导入、指定数据库匹配、结果导出 Excel、全流程（搜索→匹配→评估→导出） | ✅ |
+| 🔬 **数据集校验** | ILCD/JSON-LD 格式校验、交叉引用检查、格式互转 | ⚠️ 技能测试中 |
+| 📋 **合规报告** | Scope 3 排放清单、CBAM 嵌入排放、数据质量评估 (DQI) | ⚠️ 技能测试中 |
+| 🧮 **碳足迹核算** | 系统边界定义、分配方法对比、运输碳足迹、碳减排量化 | ✅ |
+| 📈 **数据分析** | 材料替代对比、数据集版本差异、热点分析 | ✅ |
+| 🌱 **生态设计** | 低碳材料推荐、包装方案对比、再生料 vs 原生料 | ✅ |
+| 🔗 **工具协作** | 导出 Excel/PDF/Word/PPT、一键提 GitHub Issue | ✅ |
+
+> ✅ = 已上线 &nbsp; ⚠️ = 技能测试中 &nbsp; 完整场景列表（40+ 用例）：[Ideas (#12)](https://github.com/HiQ-AI/cortex-desktop/issues/12)
+
+### 🔜 即将推出
+- LCA 工具导入文件生成（SimaPro CSV、openLCA JSON-LD）
+- openLCA 桥接 — 搜索 → 建模 → LCIA 计算
+- 桑基图 / 瀑布图可视化
+- 团队协作与共享工作空间
+- 离线模式与本地数据缓存
+
+> 🚧 [Ideas (#12)](https://github.com/HiQ-AI/cortex-desktop/issues/12) 中标记待开发的场景欢迎社区贡献技能 — [cortex-skills](https://github.com/HiQ-AI/cortex-skills)
 
 ---
 
@@ -242,7 +241,7 @@ Cortex 严格分离云端智能和本地数据。你的专有文件、BOM 数据
 
 ## 反馈与社区
 
-- **Bug 反馈和功能建议** — [提交 Issue](https://github.com/HiQ-AI/cortex-desktop/issues/new)
+- **Bug 反馈和功能建议** — [提交 Issue](https://github.com/HiQ-AI/cortex-desktop/issues/new)，或在 Cowork 里直接说"我要报 bug"，AI 帮你写好提交
 - **问题与讨论** — [参与讨论](https://github.com/HiQ-AI/cortex-desktop/discussions)
 - **商务合作** — [info@hiqlcd.com](mailto:info@hiqlcd.com)
 

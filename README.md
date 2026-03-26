@@ -196,36 +196,35 @@ Auto-update is built in — you'll be notified when new versions are available.
 
 ## Roadmap
 
-### Available Now
-- [x] Multi-database search (12 databases, 1M+ records)
-- [x] AI material analysis and dataset recommendations
-- [x] Data source selection and filtering
-- [x] BOM upload and batch material matching with parallel search
-- [x] File upload — attach Excel, CSV, PDF, Word, images to conversations
-- [x] Local file analysis with Python environment
-- [x] AI autonomous task planning and subtask delegation
-- [x] Human-in-the-loop interactive clarification
-- [x] Multi-turn conversation with context memory
-- [x] Project management with folders, instructions, and memory
-- [x] Session management (star, archive, rename, search)
-- [x] Skills Center — enable/disable skills, card-based UI
-- [x] Skills Marketplace — cloud-based skill store, one-click install from [cortex-skills](https://github.com/HiQ-AI/cortex-skills)
-- [x] Custom skill import — upload .skill/.zip files with validation
-- [x] Built-in LCA search skills with bilingual keyword strategy
-- [x] Real-time tool execution visibility (inline in conversation)
-- [x] Code syntax highlighting
-- [x] Export to CSV / Excel
-- [x] Cross-platform: macOS, Windows, Linux
-- [x] Auto-update
-- [x] Chinese + English bilingual interface
-- [x] Local-first privacy architecture
+### 🆕 Recently Added
+- **Document generation** — Excel, PDF, Word, PowerPoint via built-in skills
+- **Data visualization** — charts and comparison tables via Python + xlsx skills
+- **One-click issue submission** — tell the AI about a bug, it drafts and submits a GitHub Issue for you
+- **Bilingual search results** — dataset names returned in both Chinese and English
 
-### Coming Soon
-- [ ] Data visualization and comparison charts
-- [ ] PDF report generation (ISO 14067 format)
-- [ ] LCA tool import file generation (SimaPro CSV, openLCA JSON-LD)
-- [ ] Team collaboration and shared workspaces
-- [ ] Offline mode with local data cache
+### What Cortex Can Do Today
+
+| Category | Scenarios | Status |
+|---|---|---|
+| 🔍 **Data Search** | Single material lookup, multi-database comparison, regional filtering, proxy matching for rare materials | ✅ |
+| 📊 **BOM Matching** | Batch import, database-specific matching, result export to Excel, full pipeline (search → match → assess → export) | ✅ |
+| 🔬 **Dataset QA** | ILCD/JSON-LD format validation, cross-reference checks, format conversion | ⚠️ Skills in beta |
+| 📋 **Compliance** | Scope 3 inventory, CBAM embedded emissions, data quality assessment (DQI) | ⚠️ Skills in beta |
+| 🧮 **Carbon Footprint** | System boundary definition, allocation method comparison, transport footprint, reduction quantification | ✅ |
+| 📈 **Analysis** | Material substitution comparison, dataset version diff, hotspot analysis | ✅ |
+| 🌱 **Eco-design** | Low-carbon material alternatives, packaging comparison, recycled vs virgin material | ✅ |
+| 🔗 **Tool Integration** | Export to Excel/PDF/Word/PPT, GitHub issue submission | ✅ |
+
+> ✅ = available now &nbsp; ⚠️ = skill in beta &nbsp; Full scenario list with 40+ use cases: [Ideas (#12)](https://github.com/HiQ-AI/cortex-desktop/issues/12)
+
+### 🔜 Coming Soon
+- LCA tool import file generation (SimaPro CSV, openLCA JSON-LD)
+- openLCA bridge — search → model → LCIA calculation
+- Sankey / waterfall chart visualization
+- Team collaboration and shared workspaces
+- Offline mode with local data cache
+
+> 🚧 scenarios in [Ideas (#12)](https://github.com/HiQ-AI/cortex-desktop/issues/12) welcome community skill contributions — [cortex-skills](https://github.com/HiQ-AI/cortex-skills)
 
 ---
 
@@ -242,7 +241,7 @@ Auto-update is built in — you'll be notified when new versions are available.
 
 ## Feedback
 
-- **Bug reports & feature requests** — [Open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new)
+- **Bug reports & feature requests** — [Open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new), or just tell the AI in Cowork — it'll draft and submit one for you
 - **Questions & discussions** — [Join the discussion](https://github.com/HiQ-AI/cortex-desktop/discussions)
 - **Business inquiries** — [info@hiqlcd.com](mailto:info@hiqlcd.com)
 
