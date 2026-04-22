@@ -27,10 +27,6 @@ HiQ Cortex is a desktop AI assistant for Life Cycle Assessment (LCA) professiona
 
 Built by [HiQ (海科数据)](https://www.hiqlcd.com), a Shanghai-based LCA data company operating the **HiQLCD** platform — China's leading localized LCA database covering 25+ industries with ISO 14040/14044/14067 compliant data. HiQ serves **100+ enterprise clients** across automotive, electronics, packaging, construction, and chemical industries, with **18+ strategic partners** including Tsinghua, Tongji, and Fudan universities.
 
-<p align="center">
-  <img src="screenshots/chat-welcome.png" width="720" alt="Cortex Screenshot" />
-</p>
-
 ---
 
 You have a BOM with 31 materials. Each one needs a carbon footprint emission factor. You open SimaPro, search "carbon steel" — 200 results. Which one? You try openLCA, different database, different names. You check a spreadsheet your colleague made last year. Three hours later, you've matched 8 materials.
@@ -53,6 +49,11 @@ That's it. Cortex handles the rest — loading search skills, asking clarifying 
 ## Two Modes, One App
 
 ### Chat — Cloud-Powered LCA Q&A
+
+<p align="center">
+  <img src="screenshots/chat-welcome.png" width="720" alt="Cortex Chat welcome" />
+</p>
+
 Quick Q&A with a professional AI carbon consultant backed by cloud intelligence:
 - **Cloud conversation memory** — pick up where you left off, AI remembers your context
 - **Expert knowledge base** — LCA methodology, standards, industry best practices built in

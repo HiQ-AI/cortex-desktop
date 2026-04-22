@@ -27,10 +27,6 @@ HiQ Cortex 是一款面向生命周期评估（LCA）专业人士的桌面 AI �
 
 由 [海科数据 (HiQ)](https://www.hiqlcd.com) 开发，运营中国领先的本土化 LCA 数据库平台 **HiQLCD**，覆盖 25+ 行业，数据符合 ISO 14040/14044/14067 标准。海科服务于汽车、电子、包装、建筑、化工等行业的 **100+ 家企业客户**，拥有清华大学、同济大学、复旦大学等 **18+ 家战略合作伙伴**。
 
-<p align="center">
-  <img src="screenshots/chat-welcome.png" width="720" alt="Cortex 截图" />
-</p>
-
 ---
 
 你有一份 31 种材料的 BOM 表。每个材料都需要碳足迹排放因子。你打开 SimaPro，搜"碳钢"——200 条结果。选哪个？换 openLCA 试试，不同的数据库，不同的命名。翻翻同事去年整理的表格。三个小时过去了，你匹配了 8 个材料。
@@ -53,6 +49,11 @@ HiQ Cortex 是一款面向生命周期评估（LCA）专业人士的桌面 AI �
 ## 两种模式，一个应用
 
 ### Chat — 云端智能 LCA 问答
+
+<p align="center">
+  <img src="screenshots/chat-welcome.png" width="720" alt="Cortex Chat 欢迎页" />
+</p>
+
 与一位云端专业 AI 碳咨询师对话，享受完整的云端能力：
 - **云端对话记忆** — 随时接续上次对话，AI 记得你聊过什么
 - **专家知识库** — 内置 LCA 方法论、标准解读、行业最佳实践
