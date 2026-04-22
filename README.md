@@ -29,12 +29,6 @@ Built by [HiQ (海科数据)](https://www.hiqlcd.com), a Shanghai-based LCA data
 
 ---
 
-You have a BOM with 31 materials. Each one needs a carbon footprint emission factor. You open SimaPro, search "carbon steel" — 200 results. Which one? You try openLCA, different database, different names. You check a spreadsheet your colleague made last year. Three hours later, you've matched 8 materials.
-
-**Cortex does it in 3 minutes.** Tell it what you need in plain language. It searches 12 databases, asks you when it's unsure, verifies every result, and hands you a color-coded Excel with professional commentary.
-
----
-
 ## Quick Start
 
 1. **Download & Install** — Grab the installer for your platform below
