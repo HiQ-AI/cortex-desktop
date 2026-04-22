@@ -61,13 +61,19 @@ Quick Q&A with a professional AI carbon consultant backed by cloud intelligence:
 Like having a senior LCA analyst who never forgets and knows every standard.
 
 ### Cowork — Local-First AI Workbench
-AI works directly with your local files, and comes with a full toolbox:
-- **Everything local** — reads, writes, and edits files; runs Python and shell; stores conversation history and workspace data on your machine
-- **File upload** — Attach Excel, CSV, PDF, Word, images — AI reads them with full context
-- **Desktop & browser automation** — operate other apps or drive a real browser when a direct integration isn't enough, gated by per-app permissions
-- **Parallel subagents** — delegates subtasks to helpers that run side-by-side, with a live nested timeline
+
+<p align="center">
+  <img src="screenshots/cowork-scenarios.png" width="720" alt="Cortex Cowork — LCA workbench scenarios" />
+</p>
+
+AI works directly on your machine with a full toolbox:
+- **Scenarios** — curated playbooks (openLCA modeling, BOM matching, footprint reports); each card presets role, target, and skill stack
+- **Everything local** — reads, writes, edits files; runs Python and shell; accepts Excel / CSV / PDF / Word / image uploads; conversation history stays on your machine
 - **Project memory** — each project keeps a `Cortex.md` the AI maintains itself, so it remembers your conventions across sessions
-- **Skills system** — extensible via [marketplace](https://github.com/HiQ-AI/cortex-skills) or custom .skill imports
+- **Wiki** — entity-graph knowledge base linking datasets, decisions, and references across your projects; list and force-directed graph views
+- **Parallel subagents** — delegates subtasks to helpers running side-by-side, with a live nested timeline
+- **Skills system** — extensible via [marketplace](https://github.com/HiQ-AI/cortex-skills) or custom `.skill` imports
+- **Desktop automation** — operate other apps when a direct integration isn't enough, gated by per-app permissions
 
 Like a senior consultant sitting next to you — with their own toolkit, working on your files, on your machine.
 
@@ -197,15 +203,16 @@ Auto-update is built in — you'll be notified when new versions are available.
 ## Roadmap
 
 ### 🆕 Recently Added
+- **Scenarios** — one-click playbooks for common LCA workflows; each card presets role, target, and skill stack
+- **Wiki** — entity-graph knowledge base with list and force-directed graph views, linking datasets, decisions, and references across projects
+- **openLCA bridge** — search → model → LCIA calculation → export, all from natural language
 - **Project memory** — each project keeps a `Cortex.md` the AI maintains itself, so it remembers your conventions without being re-told
-- **Desktop & browser automation** — ask Cortex to operate other apps or drive a real browser, with per-app permission gates
-- **Parallel subagents** — helpers run subtasks side-by-side, displayed as a live nested timeline
-- **Artifacts gallery & scene cards** — in-app canvas for generated files, plus quick-start cards for common workflows
-- **Refreshed UI** — new typography, syntax-highlighted code blocks, cleaner tables and input area (v0.0.73)
+- **Desktop automation** — ask Cortex to operate other apps, with per-app permission gates
+- **Artifacts gallery** — in-app canvas for generated files, reports, and visualizations
 
 ### 🔜 Coming Soon
 - LCA tool import file generation (SimaPro CSV, openLCA JSON-LD)
-- openLCA bridge — search → model → LCIA calculation
+- Browser automation inside Cowork (in-app tab control)
 - Sankey / waterfall chart visualization
 - Team collaboration and shared workspaces
 - Offline mode with local data cache
