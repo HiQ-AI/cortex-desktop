@@ -40,6 +40,30 @@ HiQ Cortex 是一款面向生命周期评估（LCA）专业人士的桌面 AI �
 
 ---
 
+## 下载
+
+点对应系统的链接下载：
+
+| 平台 | 下载 |
+|---|---|
+| 🍎 **macOS** (Apple Silicon) | [**打开 release 页面**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → 点 `Cortex-<版本号>-arm64.dmg` |
+| 🪟 **Windows** (x64) | [**直接下载 Cortex-Setup.exe ↓**](https://github.com/HiQ-AI/cortex-desktop/releases/latest/download/Cortex-Setup.exe) |
+| 🐧 **Linux** (x64) | [**打开 release 页面**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → 点 `Cortex-<版本号>-x64.AppImage` |
+
+> Release 页面上还会看到 `.nupkg` / `.zip` / `RELEASES` 等文件——那是自动更新用的，**不用理**，上面表里的文件才是要下载的。
+
+内置自动更新——有新版本时会自动通知。
+
+> **提示**：Cortex 目前尚未完成代码签名（Apple 公证和 Windows 签名正在进行中）。系统可能会提示"未知开发者"——这是测试版软件的正常现象。
+
+> **macOS 首次打开**：右键点击应用 → 选择「打开」→ 在弹窗中点击「打开」。只需操作一次。
+
+> **Windows 首次打开**：Windows Defender SmartScreen 可能显示"已保护你的电脑"。点击「更多信息」→「仍要运行」。此外需要安装 [Git for Windows](https://git-scm.com)——Cortex 会在缺少时提示你。安装后无需额外配置。
+
+> **注意**：HiQ Cortex 目前处于内测阶段。如需试用，请[发送邮件](mailto:info@hiqlcd.com)或[提交 Issue](https://github.com/HiQ-AI/cortex-desktop/issues/new)。
+
+---
+
 ## 两种模式，一个应用
 
 ### Chat — 云端智能 LCA 问答
@@ -153,30 +177,6 @@ Cortex 严格分离云端智能和本地数据。你的专有文件、BOM 数据
 - AI 只能看到你在对话中明确分享的内容——它无法扫描你的文件系统
 
 > **AI 来找你的数据，而不是把数据送给 AI。**
-
----
-
-## 下载
-
-点对应系统的链接下载：
-
-| 平台 | 下载 |
-|---|---|
-| 🍎 **macOS** (Apple Silicon) | [**打开 release 页面**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → 点 `Cortex-<版本号>-arm64.dmg` |
-| 🪟 **Windows** (x64) | [**直接下载 Cortex-Setup.exe ↓**](https://github.com/HiQ-AI/cortex-desktop/releases/latest/download/Cortex-Setup.exe) |
-| 🐧 **Linux** (x64) | [**打开 release 页面**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → 点 `Cortex-<版本号>-x64.AppImage` |
-
-> Release 页面上还会看到 `.nupkg` / `.zip` / `RELEASES` 等文件——那是自动更新用的，**不用理**，上面表里的文件才是要下载的。
-
-内置自动更新——有新版本时会自动通知。
-
-> **提示**：Cortex 目前尚未完成代码签名（Apple 公证和 Windows 签名正在进行中）。系统可能会提示"未知开发者"——这是测试版软件的正常现象。
-
-> **macOS 首次打开**：右键点击应用 → 选择「打开」→ 在弹窗中点击「打开」。只需操作一次。
-
-> **Windows 首次打开**：Windows Defender SmartScreen 可能显示"已保护你的电脑"。点击「更多信息」→「仍要运行」。此外需要安装 [Git for Windows](https://git-scm.com)——Cortex 会在缺少时提示你。安装后无需额外配置。
-
-> **注意**：HiQ Cortex 目前处于内测阶段。如需试用，请[发送邮件](mailto:info@hiqlcd.com)或[提交 Issue](https://github.com/HiQ-AI/cortex-desktop/issues/new)。
 
 ---
 
