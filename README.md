@@ -40,6 +40,30 @@ That's it. Cortex handles the rest — loading search skills, asking clarifying 
 
 ---
 
+## Download
+
+Click the link for your system:
+
+| Platform | Download |
+|---|---|
+| 🍎 **macOS** (Apple Silicon) | [**Open release page**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → click `Cortex-<version>-arm64.dmg` |
+| 🪟 **Windows** (x64) | [**Download Cortex-Setup.exe ↓**](https://github.com/HiQ-AI/cortex-desktop/releases/latest/download/Cortex-Setup.exe) |
+| 🐧 **Linux** (x64) | [**Open release page**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → click `Cortex-<version>-x64.AppImage` |
+
+> On the release page you'll also see `.nupkg`, `.zip`, and `RELEASES` — those are for the built-in auto-updater. **Ignore them**, you only need the one file above.
+
+Auto-update is built in — you'll be notified when new versions are available.
+
+> **Important**: Cortex is not code-signed yet (Apple notarization and Windows signing are in progress). Your OS may warn you about an unrecognized developer — this is expected for beta software.
+
+> **macOS first launch**: Right-click the app → "Open" → click "Open" in the dialog. Only needed once.
+
+> **Windows first launch**: Windows Defender SmartScreen may show "Windows protected your PC". Click "More info" → "Run anyway". You may also need to install [Git for Windows](https://git-scm.com) — Cortex will prompt you if it's missing. No extra configuration needed after installing.
+
+> **Note**: HiQ Cortex is in closed beta. To request access, [email us](mailto:info@hiqlcd.com) or [open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new).
+
+---
+
 ## Two Modes, One App
 
 ### Chat — Cloud-Powered LCA Q&A
@@ -153,30 +177,6 @@ Cortex is designed with a strict separation between cloud intelligence and local
 - The AI only sees the content you explicitly share in conversation — it cannot scan your filesystem
 
 > **AI comes to your data. Your data doesn't go to AI.**
-
----
-
-## Download
-
-Click the link for your system:
-
-| Platform | Download |
-|---|---|
-| 🍎 **macOS** (Apple Silicon) | [**Open release page**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → click `Cortex-<version>-arm64.dmg` |
-| 🪟 **Windows** (x64) | [**Download Cortex-Setup.exe ↓**](https://github.com/HiQ-AI/cortex-desktop/releases/latest/download/Cortex-Setup.exe) |
-| 🐧 **Linux** (x64) | [**Open release page**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → click `Cortex-<version>-x64.AppImage` |
-
-> On the release page you'll also see `.nupkg`, `.zip`, and `RELEASES` — those are for the built-in auto-updater. **Ignore them**, you only need the one file above.
-
-Auto-update is built in — you'll be notified when new versions are available.
-
-> **Important**: Cortex is not code-signed yet (Apple notarization and Windows signing are in progress). Your OS may warn you about an unrecognized developer — this is expected for beta software.
-
-> **macOS first launch**: Right-click the app → "Open" → click "Open" in the dialog. Only needed once.
-
-> **Windows first launch**: Windows Defender SmartScreen may show "Windows protected your PC". Click "More info" → "Run anyway". You may also need to install [Git for Windows](https://git-scm.com) — Cortex will prompt you if it's missing. No extra configuration needed after installing.
-
-> **Note**: HiQ Cortex is in closed beta. To request access, [email us](mailto:info@hiqlcd.com) or [open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new).
 
 ---
 
