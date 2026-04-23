@@ -158,11 +158,15 @@ Cortex is designed with a strict separation between cloud intelligence and local
 
 ## Download
 
+Click the link for your system:
+
 | Platform | Download |
 |---|---|
-| **macOS** (Apple Silicon) | [Cortex.dmg](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
-| **Windows** (x64) | [Cortex-Setup.exe](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
-| **Linux** (x64) | [Cortex.AppImage](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
+| 🍎 **macOS** (Apple Silicon) | [**Open release page**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → click `Cortex-<version>-arm64.dmg` |
+| 🪟 **Windows** (x64) | [**Download Cortex-Setup.exe ↓**](https://github.com/HiQ-AI/cortex-desktop/releases/latest/download/Cortex-Setup.exe) |
+| 🐧 **Linux** (x64) | [**Open release page**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → click `Cortex-<version>-x64.AppImage` |
+
+> On the release page you'll also see `.nupkg`, `.zip`, and `RELEASES` — those are for the built-in auto-updater. **Ignore them**, you only need the one file above.
 
 Auto-update is built in — you'll be notified when new versions are available.
 
