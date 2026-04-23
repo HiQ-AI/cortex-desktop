@@ -158,11 +158,15 @@ Cortex 严格分离云端智能和本地数据。你的专有文件、BOM 数据
 
 ## 下载
 
+点对应系统的链接下载：
+
 | 平台 | 下载 |
 |---|---|
-| **macOS** (Apple Silicon) | [Cortex.dmg](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
-| **Windows** (x64) | [Cortex-Setup.exe](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
-| **Linux** (x64) | [Cortex.AppImage](https://github.com/HiQ-AI/cortex-desktop/releases/latest) |
+| 🍎 **macOS** (Apple Silicon) | [**打开 release 页面**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → 点 `Cortex-<版本号>-arm64.dmg` |
+| 🪟 **Windows** (x64) | [**直接下载 Cortex-Setup.exe ↓**](https://github.com/HiQ-AI/cortex-desktop/releases/latest/download/Cortex-Setup.exe) |
+| 🐧 **Linux** (x64) | [**打开 release 页面**](https://github.com/HiQ-AI/cortex-desktop/releases/latest) → 点 `Cortex-<版本号>-x64.AppImage` |
+
+> Release 页面上还会看到 `.nupkg` / `.zip` / `RELEASES` 等文件——那是自动更新用的，**不用理**，上面表里的文件才是要下载的。
 
 内置自动更新——有新版本时会自动通知。
 
