@@ -27,6 +27,16 @@ HiQ Cortex is a desktop AI assistant for Life Cycle Assessment (LCA) professiona
 
 Built by [HiQ (海科数据)](https://www.hiqlcd.com), a Shanghai-based LCA data company operating the **HiQLCD** platform — China's leading localized LCA database covering 25+ industries with ISO 14040/14044/14067 compliant data. HiQ serves **100+ enterprise clients** across automotive, electronics, packaging, construction, and chemical industries, with **18+ strategic partners** including Tsinghua, Tongji, and Fudan universities.
 
+<p align="center">
+  <img src="screenshots/chat-welcome.png" width="720" alt="Cortex Screenshot" />
+</p>
+
+---
+
+You have a BOM with 31 materials. Each one needs a carbon footprint emission factor. You open SimaPro, search "carbon steel" — 200 results. Which one? You try openLCA, different database, different names. You check a spreadsheet your colleague made last year. Three hours later, you've matched 8 materials.
+
+**Cortex does it in 3 minutes.** Tell it what you need in plain language. It searches 12 databases, asks you when it's unsure, verifies every result, and hands you a color-coded Excel with professional commentary.
+
 ---
 
 ## Quick Start
@@ -54,11 +64,9 @@ Click the link for your system:
 
 Auto-update is built in — you'll be notified when new versions are available.
 
-> **Important**: Cortex is not code-signed yet (Apple notarization and Windows signing are in progress). Your OS may warn you about an unrecognized developer — this is expected for beta software.
+> **macOS**: Code-signed and notarized (since v0.2.0) — double-click and it opens, no Gatekeeper ritual.
 
-> **macOS first launch**: Right-click the app → "Open" → click "Open" in the dialog. Only needed once.
-
-> **Windows first launch**: Windows Defender SmartScreen may show "Windows protected your PC". Click "More info" → "Run anyway". You may also need to install [Git for Windows](https://git-scm.com) — Cortex will prompt you if it's missing. No extra configuration needed after installing.
+> **Windows first launch**: Windows Defender SmartScreen may show "Windows protected your PC" (Windows code-signing certificate is still pending — separate from Apple). Click "More info" → "Run anyway". You may also need to install [Git for Windows](https://git-scm.com) — Cortex will prompt you if it's missing. No extra configuration needed after installing.
 
 > **Note**: HiQ Cortex is in closed beta. To request access, [email us](mailto:info@hiqlcd.com) or [open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new).
 
@@ -67,11 +75,6 @@ Auto-update is built in — you'll be notified when new versions are available.
 ## Two Modes, One App
 
 ### Chat — Cloud-Powered LCA Q&A
-
-<p align="center">
-  <img src="screenshots/chat-welcome.png" width="720" alt="Cortex Chat welcome" />
-</p>
-
 Quick Q&A with a professional AI carbon consultant backed by cloud intelligence:
 - **Cloud conversation memory** — pick up where you left off, AI remembers your context
 - **Expert knowledge base** — LCA methodology, standards, industry best practices built in
@@ -80,19 +83,11 @@ Quick Q&A with a professional AI carbon consultant backed by cloud intelligence:
 Like having a senior LCA analyst who never forgets and knows every standard.
 
 ### Cowork — Local-First AI Workbench
-
-<p align="center">
-  <img src="screenshots/cowork-scenarios.png" width="720" alt="Cortex Cowork — LCA workbench scenarios" />
-</p>
-
-AI works directly on your machine with a full toolbox:
-- **Scenarios** — curated playbooks (openLCA modeling, BOM matching, footprint reports); each card presets role, target, and skill stack
-- **Everything local** — reads, writes, edits files; runs Python and shell; accepts Excel / CSV / PDF / Word / image uploads; conversation history stays on your machine
-- **Project memory** — each project keeps a `Cortex.md` the AI maintains itself, so it remembers your conventions across sessions
-- **Wiki** — entity-graph knowledge base linking datasets, decisions, and references across your projects; list and force-directed graph views
-- **Parallel subagents** — delegates subtasks to helpers running side-by-side, with a live nested timeline
-- **Skills system** — extensible via [marketplace](https://github.com/HiQ-AI/cortex-skills) or custom `.skill` imports
-- **Desktop automation** — operate other apps when a direct integration isn't enough, gated by per-app permissions
+AI works directly with your local files. Everything except AI reasoning and database search runs on your machine:
+- **Files stay local** — AI reads, writes, and edits files on your computer, never uploaded
+- **Local execution** — Python, shell commands, data processing all run locally
+- **Local storage** — conversation history, projects, workspace files stored on your device
+- Autonomously plans work, delegates subtasks, parallelizes searches
 
 Like a senior consultant sitting next to you — with their own toolkit, working on your files, on your machine.
 
@@ -201,22 +196,36 @@ Cortex is designed with a strict separation between cloud intelligence and local
 
 ## Roadmap
 
-### 🆕 Recently Added
-- **Scenarios** — one-click playbooks for common LCA workflows; each card presets role, target, and skill stack
-- **Wiki** — entity-graph knowledge base with list and force-directed graph views, linking datasets, decisions, and references across projects
-- **openLCA bridge** — search → model → LCIA calculation → export, all from natural language
-- **Project memory** — each project keeps a `Cortex.md` the AI maintains itself, so it remembers your conventions without being re-told
-- **Desktop automation** — ask Cortex to operate other apps, with per-app permission gates
-- **Artifacts gallery** — in-app canvas for generated files, reports, and visualizations
+### Available Now
+- [x] Multi-database search (12 databases, 1M+ records)
+- [x] AI material analysis and dataset recommendations
+- [x] Data source selection and filtering
+- [x] BOM upload and batch material matching with parallel search
+- [x] Local file analysis with Python environment
+- [x] AI autonomous task planning and subtask delegation
+- [x] Human-in-the-loop interactive clarification
+- [x] Multi-turn conversation with context memory
+- [x] Project management with folders, instructions, and memory
+- [x] Session management (star, archive, rename, search)
+- [x] Scheduled tasks — Cortex runs on a daily/weekly/cron schedule with desktop notifications
+- [x] Project task card — cross-session to-do tracking surfaced on each project home
+- [x] Knowledge graph — per-project wiki of entities, sources, and claims auto-built from your files; manual ingest on demand
+- [x] Built-in LCA search skills with bilingual keyword strategy
+- [x] Real-time tool execution visibility (inline in conversation)
+- [x] Code syntax highlighting
+- [x] Export to CSV / Excel
+- [x] Cross-platform: macOS, Windows, Linux
+- [x] Auto-update
+- [x] Chinese + English bilingual interface
+- [x] Local-first privacy architecture
 
-### 🔜 Coming Soon
-- LCA tool import file generation (SimaPro CSV, openLCA JSON-LD)
-- Browser automation inside Cowork (in-app tab control)
-- Sankey / waterfall chart visualization
-- Team collaboration and shared workspaces
-- Offline mode with local data cache
-
-> 🚧 scenarios in [Ideas (#12)](https://github.com/HiQ-AI/cortex-desktop/issues/12) welcome community skill contributions — [cortex-skills](https://github.com/HiQ-AI/cortex-skills)
+### Coming Soon
+- [ ] Data visualization and comparison charts
+- [ ] PDF report generation (ISO 14067 format)
+- [ ] LCA tool import file generation (SimaPro CSV, openLCA JSON-LD)
+- [ ] Team collaboration and shared workspaces
+- [ ] Offline mode with local data cache
+- [ ] Image attachment support for visual analysis
 
 ---
 
@@ -233,7 +242,7 @@ Cortex is designed with a strict separation between cloud intelligence and local
 
 ## Feedback
 
-- **Bug reports & feature requests** — [Open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new), or just tell the AI in Cowork — it'll draft and submit one for you
+- **Bug reports & feature requests** — [Open an issue](https://github.com/HiQ-AI/cortex-desktop/issues/new)
 - **Questions & discussions** — [Join the discussion](https://github.com/HiQ-AI/cortex-desktop/discussions)
 - **Business inquiries** — [info@hiqlcd.com](mailto:info@hiqlcd.com)
 
